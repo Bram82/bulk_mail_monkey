@@ -1,0 +1,13 @@
+.img_header {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+header {
+  height: 100px !important;
+}
+
+header > h3 {
+  position: relative;
+  top: 50%;
+}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block scripts %}
+    <link rel="stylesheet" href="{% static 'app_auth/css/authStyle.css' %}">
+{% endblock %}
+
+{% block title %}
+    Logged out
+{% endblock %}
+
+{% block content %}
+    <h3 class="centerHeader">Logged out successfully!</h3>
+    <p class="centerParagraph">Click <a href="{% url 'login' %}">here</a> to login again.</p>
+{% endblock %}

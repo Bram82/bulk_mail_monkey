@@ -1,0 +1,37 @@
+.sm-font {
+  font-size: 0.85em;
+}
+
+
+.centerScreen {
+  min-width: 500px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerParagraph {
+  min-width: 500px;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerHeader {
+  min-width: 500px;
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 500px) {
+  .centerScreen {
+    min-width: 90%;
+  }
+}
