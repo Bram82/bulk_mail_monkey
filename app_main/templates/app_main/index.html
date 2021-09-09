@@ -1,2 +1,24 @@
-{% extends 'base_with_nav.html' %}
+{% extends 'base.html' %}
+{% load static %}
 
+{% block title %}
+    Bulk mail monkey
+{% endblock %}
+
+{% block scripts %}
+    <link rel="stylesheet" href="{% static 'app_main/css/indexStyle.css' %}">
+{% endblock %}
+
+{% block content %}
+   <div class="row align-items-center centerScreen">
+    <div class="row block">
+        <a href="#" class="index-link">Create new mailing</a>
+    </div>
+    <div class="row block">
+        <a href="" class="index-link">Manage email addresses</a>
+    </div>
+    <div class="row block">
+        <a href="" class="index-link">Your profile</a>
+    </div>
+  </div>
+{% endblock %}

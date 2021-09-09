@@ -1,0 +1,59 @@
+.block {
+  position: relative;
+  display: block;
+  width: 100%;
+  border: none;
+  color:#444;
+  background:#DDD;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.block:hover {
+  background: darkgrey  ;
+}
+
+.index-link {
+  color: #444444;
+  font-weight: bold;
+}
+
+.index-link:hover {
+    text-decoration: none;
+}
+
+.centerScreen {
+  min-width: 500px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerParagraph {
+  min-width: 500px;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerHeader {
+  min-width: 500px;
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 500px) {
+  .centerScreen {
+    min-width: 90%;
+  }
+}
